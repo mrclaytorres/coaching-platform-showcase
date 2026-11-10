@@ -1,0 +1,13 @@
+{
+  "name": "coaching-platform-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sanitized backend patterns from a production coaching platform: resilient aggregation, atomic booking, idempotent credit ledger, hashed API keys.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\""
+  }
+}
