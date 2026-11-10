@@ -99,3 +99,7 @@ npm test
   the OS-level process starts in the right directory no matter how npm behaves.
 - **Third-party provisioning:** every feature that needed a new external account (Mux,
   Turnstile, Zoom, calendar OAuth apps, Resend) shipped with a step-by-step provisioning runbook.
+
+## License
+
+[MIT](LICENSE)
