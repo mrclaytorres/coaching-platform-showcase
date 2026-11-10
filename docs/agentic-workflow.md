@@ -20,6 +20,11 @@ flowchart LR
 | **analyze** | A read-only consistency report across spec, plan and tasks | Find gaps (requirements with no task, tasks with no requirement) before writing code. |
 | **implement** | Code, worked through `tasks.md` in order | The agent ticks off tasks, and every change traces back to a requirement. |
 
+For a full example, see the sanitized artifacts for one feature in
+[sample-spec/credit-watch-fallback/](sample-spec/credit-watch-fallback/): [spec](sample-spec/credit-watch-fallback/spec.md),
+[research](sample-spec/credit-watch-fallback/research.md), [plan](sample-spec/credit-watch-fallback/plan.md) and
+[tasks](sample-spec/credit-watch-fallback/tasks.md).
+
 ## Guardrails that made it work
 
 - **One branch per feature, always cut from `develop`,** and merged through a pull request

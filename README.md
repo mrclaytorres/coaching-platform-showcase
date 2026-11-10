@@ -29,7 +29,9 @@ that it couldn't change quickly:
 My role: backend and full-stack engineer. I owned the specs, architecture, implementation and
 deployment for most of the features.
 
-See [docs/architecture.md](docs/architecture.md) for the system diagram and decisions.
+See [docs/architecture.md](docs/architecture.md) for the system diagram and decisions, and
+[docs/sample-spec/credit-watch-fallback/](docs/sample-spec/credit-watch-fallback/) for a real
+feature's spec, research, plan and tasks (sanitized), the same feature as pattern 1 below.
 
 ## Patterns in this repo
 
