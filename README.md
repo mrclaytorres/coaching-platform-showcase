@@ -23,15 +23,16 @@ that it couldn't change quickly:
   products), Payload CMS for authored content, a legacy Django REST API for customer, credit and
   session data, Zoom, external calendar sync (Google, Microsoft 365, CalDAV), Resend for email,
   and Mux for video.
-- **Scope:** 20+ features shipped through a spec-driven, AI-assisted workflow (see
+- **Scope:** 20+ features shipped (all specs in [specs/](specs/)) through a spec-driven, AI-assisted workflow (see
   [docs/agentic-workflow.md](docs/agentic-workflow.md)).
 
 My role: backend and full-stack engineer. I owned the specs, architecture, implementation and
 deployment for most of the features.
 
 See [docs/architecture.md](docs/architecture.md) for the system diagram and decisions, and
-[docs/sample-spec/credit-watch-fallback/](docs/sample-spec/credit-watch-fallback/) for a real
-feature's spec, research, plan and tasks (sanitized), the same feature as pattern 1 below.
+[specs/](specs/) for every feature's spec, research, plan and tasks (sanitized), numbered as they
+were built. Pattern 1 below is
+[specs/011-credit-watch-fallback](specs/011-credit-watch-fallback/).
 
 ## Patterns in this repo
 
